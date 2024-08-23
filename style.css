@@ -1,0 +1,40 @@
+/* css dasar  */
+body {
+ background-image: url(bg.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+#judul {
+ font-family: cursive;
+ color: white;
+ font-size: 100px;
+ font-weight: bold;
+ text-align: center;
+ letter-spacing: 5px;
+ padding: 50px 0;
+ text-decoration: underline;
+}
+
+#judul:hover {
+ color: red;
+}
+
+body .isi {
+ font-family: serif;
+ color: white;
+ text-indent: 50px;
+ text-align: justify;
+ font-size: 20px;
+ font-style: italic;
+ font-variant: small-caps;
+ text-transform: capitalize;
+ padding: 0 20px;
+}
+
+body .isi:hover {
+ background-color: lightblue;
+ color: black;
+}
